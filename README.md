@@ -4,7 +4,7 @@ Repo to create basic REST service project Leiningen template.
 
     When cloning a project, renaming directories/namespaces is too cumbersome
 
-The project created using the template will have following setup:
+The project created using the template will have the following setup:
 
     :dependencies [[org.clojure/clojure "1.6.0"]
                    [compojure "1.1.5"]
@@ -29,10 +29,9 @@ This project requires [lein-create-template](https://github.com/tcw/lein-create-
 ### Usage
 
     $ lein create-template <template name>
-    $ cd <template name>
-
-    Update project.clj version to not have snapshot
-
+    
+    $ cd <template name> 
+    #Update project.clj version to not have snapshot
     $ lein install
     $ cd some-where
     $ lein new <template name> project-name
