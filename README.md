@@ -31,7 +31,7 @@ This project requires [lein-create-template](https://github.com/tcw/lein-create-
     $ lein create-template <template name>
     
     $ cd <template name> 
-    $ # Update project.clj version to not have snapshot
+    # Update project.clj version to not have snapshot
     $ lein install
     $ cd some-where
     $ lein new <template name> project-name
