@@ -7,4 +7,4 @@
     [:h2 ""]
     [:p {:id "an-id"} "Clojure!!"]
     [:div {:id "statuses"} "Another div"]
-    [:script {:src "/js/jquery.js"}]))
+    [:script {:src "scripts/lib/jquery.js"}]))
